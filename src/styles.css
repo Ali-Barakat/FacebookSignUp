@@ -1,0 +1,14 @@
+.App {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  text-decoration: none;
+  background: #ebedf0;
+}
+
+a {
+  text-decoration: none;
+  color: #99b1d8;
+}

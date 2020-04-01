@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-color: #29487d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrap__header {
+  display: flex;
+}
+
+.header-logo {
+  color: #fff;
+  padding-top: 10px;
+  text-align: left;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 60%;
+}
+
+.wrap__header-login {
+  text-align: right;
+}
+
+.header-login {
+  padding-top: 1%;
+}
+
+.form__login {
+  display: flex;
+}
+
+.form__field {
+  display: inline-block;
+  color: #fff;
+  font-size: 11px;
+  text-align: left;
+  // margin-right: 13px;
+}
+.input-login {
+  width: 90%;
+  margin-top: 3px;
+  border-radius: 1px;
+  }
+  
+.login-label {
+  color: #fff;
+}
+
+
+.btn-login {
+  padding-top: 12px;
+  button {
+    width: 40px;
+    color: #fff;
+    padding-bottom: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #33558f;
+    border: 1px solid #192b49;
+    cursor: pointer;
+    border-radius: 1px;
+    &:hover {
+      background-color: #192b49;
+    }
+  }
+}
+
+.subline {
+  display: block;
+  text-align: left;
+  padding-top: 4px;
+  font-size: 11px;
+  
+  a {
+    display: inline;
+  }
+}
+
+// @media (max-width: 390px) {
+//   .wrap__header {
+//     display: inline;
+//   }
+//   .header-logo {
+//     width: 100%;
+
+//     .wrap__header-login {
+//       width: 100%;
+//     }
+//   }
+// }

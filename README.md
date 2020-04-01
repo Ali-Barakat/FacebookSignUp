@@ -1,2 +1,0 @@
-# FacebookSignUp
-Created with CodeSandbox
